@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe (XO) </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="winning-msg hide">
+        <h1>CONGRATULATIONS</h1>
+        <h1 id="msg">The WINNER is: </h1>
+        <button id="new-btn">New Game</button>
+    </div>
+    <div class="container">
+    
+        <h2>Tic Tac Toe</h2>
+        <h3>Game</h3>
+        <div class="select-player">
+            <p>X: <select class="select-player-btn">
+                <option>player 1</option>
+                <option>player 2</option>
+                </select>
+            </p>  
+            <p>O: <select class="select-player-btn">
+                <option>player 2</option>
+                <option>player 1</option>
+                </select>
+            </p>
+        </div>        
+        <div class="game">
+            <div class="box"><button class="btn"></button></div>
+            <div class="box"><button class="btn"></button></div>
+            <div class="box"><button class="btn"></button></div>
+            <div class="box"><button class="btn"></button></div>
+            <div class="box"><button class="btn"></button></div>
+            <div class="box"><button class="btn"></button></div>
+            <div class="box"><button class="btn"></button></div>
+            <div class="box"><button class="btn"></button></div>
+            <div class="box"><button class="btn"></button></div>
+    
+        </div>
+        <div class="reset-new">
+            <button id="reset-btn">Reset Game</button>
+           
+    
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

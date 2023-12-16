@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.container{
+    height: 100vmin;
+    padding: 1rem;
+    background-color: rgb(55, 98, 84);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container h2,h3{
+    font-family: cursive,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+.select-player{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.select-player p{
+    width: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+.select-player-btn{
+    width: 6rem;
+    box-shadow: 0 0 1.5rem rgba(14, 14, 14, 0.772);
+
+}
+.game{
+   
+    height: 60vmin;
+    width: 60vmin;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: none;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1.5rem rgba(14, 14, 14, 0.772);
+
+    
+}
+.btn{
+    height: 100%;
+    width: 100%;
+    background-color: burlywood;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 10vmin;
+    color: rgb(167, 39, 39);    
+}
+.reset-new{
+    display: flex;
+   
+    
+}
+#reset-btn{
+    font-size: 0.75rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #191919;
+    color: white;
+    box-shadow: 0 0 1.5rem rgba(14, 14, 14, 0.772);
+    
+}
+#new-btn{
+    font-size: 0.75rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #191919;
+    color: white;
+    box-shadow: 0 0 1.5rem rgba(14, 14, 14, 0.772);
+}
+
+.winning-msg{
+    width: 60vmin;
+    position: absolute;
+    padding: 2rem;
+    top: 38vmin;
+    left: 69vmin;
+    color: rgb(118, 22, 53);
+    font-family:cursive,Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(17, 206, 206);
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 1000px rgba(14, 14, 14, 0.869);
+
+}
+.hide {
+    display: none;
+}
